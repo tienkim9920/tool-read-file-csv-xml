@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Read XML File</title>
+</head>
+
+<body>
+  <h2>Read XML File using XMLHttpRequest</h2>
+  <div id="output"></div>
+  <div id="outputDuplicate"></div>
+
+  <script>
+    class ErrorDef {
+      constructor(data) {
+        this.ERRCODE = data?.ERRCODE || '';
+        this.ERRDESC = data?.ERRDESC || '';
+        this.EN_ERRDESC = data?.EN_ERRDESC || '';
+        this.ZH_ERRDESC = data?.ZH_ERRDESC || '';
+
+        return { ...this };
+      }
+    };
+    let errorDef_VN = [];
+    let errorDef_TW = [];
+    let errorDef_EN = [];
+    let errorDefResult = [];
+    let errorDefList = [];
+
+    function loadXMLDoc(filename, countryCode) {
+      let xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          let xmlDoc = this.responseXML;
+          displayXML_VN(xmlDoc, countryCode);
+        }
+      };
+      xhttp.open("GET", filename, true);
+      xhttp.send();
+    }
+
+    function displayXML_VN(xmlDoc, countryCode) {
+      let output = document.getElementById("output");
+      let items = xmlDoc.getElementsByTagName("root"); // Adjust this according to your XML structure
+      for (let i = 0; i < items.length; i++) {
+        let errorId = items[i].getElementsByTagName("ErrorID")[0].childNodes[0]?.nodeValue;
+        let errorCode = items[i].getElementsByTagName("ErrorCode")[0].childNodes[0]?.nodeValue;
+        let errorDesc = items[i].getElementsByTagName("ErrorDesc")[0].childNodes[0]?.nodeValue;
+
+        const indexErrorRefResult = errorDefResult.findIndex(item => item.ERRCODE === errorId);
+        if (indexErrorRefResult === -1) {
+          if (countryCode === 'VN') {
+            errorDefResult.push({ ERRCODE: errorId, ERDESC: errorDesc });
+          } else if (countryCode === 'EN') {
+            errorDefResult.push({ ERRCODE: errorId, EN_ERRDESC: errorDesc });
+          } else if (countryCode === 'TW') {
+            errorDefResult.push({ ERRCODE: errorId, ZH_ERRDESC: errorDesc });
+          }
+        } else {
+          if (countryCode === 'VN') {
+            errorDefResult[indexErrorRefResult]['ERRDESC'] = errorDesc;
+          } else if (countryCode === 'EN') {
+            errorDefResult[indexErrorRefResult]['EN_ERRDESC'] = errorDesc;
+          } else if (countryCode === 'TW') {
+            errorDefResult[indexErrorRefResult]['ZH_ERRDESC'] = errorDesc;
+          }
+        }
+
+        if (countryCode === 'VN') {
+          errorDef_VN.push({ errorId, errorCode, errorDesc });
+        } else if (countryCode === 'TW') {
+          errorDef_TW.push({ errorId, errorCode, errorDesc });
+        } else if (countryCode === 'EN') {
+          errorDef_EN.push({ errorId, errorCode, errorDesc });
+        }
+        output.innerHTML += `<p>ErrorID: ${errorId}, ErrorCode: ${errorCode}, ErrorDesc: ${errorDesc}</p>`;
+      }
+    }
+
+    function loadCSVFile(filename) {
+      fetch(filename)
+        .then(response => response.text())
+        .then(text => parseCSV(text))
+        .catch(error => console.log('Error:', error));
+    }
+
+    function parseCSV(text) {
+      let rows = text.split('\n');
+      let output = document.getElementById('output');
+      rows.forEach(row => {
+        let cells = row.split(',');
+        if (cells.length >= 4) {
+          errorDefList.push(new ErrorDef({
+            ERRCODE: cells[0],
+            ERRDESC: cells[1],
+            EN_ERRDESC: cells[2],
+            ZH_ERRDESC: cells[3],
+          }));
+        }
+      });
+    }
+
+    function loadErrorDef() {
+      setTimeout(() => {
+        const errorListJoin = [...new Set(errorDef_VN.concat(errorDef_TW, errorDef_EN).map(item => item.errorId))];
+        const errorDuplicate = errorDefList.filter(item => errorListJoin.includes(item.ERRCODE));
+        console.log('errorDuplicate', errorDuplicate);
+
+        const errorListJoinDuplicate = errorDuplicate.map(item => item.ERRCODE);
+        const errorDefCreate = errorDefResult.filter(item => !errorListJoinDuplicate.includes(item.ERRCODE));
+        console.log('errorDefList', errorDefList);
+        console.log('errorDefCreate', errorDefCreate);
+        console.log(errorDefList.concat(errorDefCreate));
+        exportToCSV(errorDefList.concat(errorDefCreate), `DB_error_code_list.csv`);
+        setTimeout(() => {
+          exportToCSV(errorDuplicate, `DB_error_code_duplicate.csv`);
+        }, 2000);
+      }, 5000);
+    }
+
+    function exportToCSV(data, filename) {
+      // Chuyển đổi dữ liệu thành định dạng CSV
+      // let csvContent = "data:text/csv;charset=utf-8,";
+      let csvContent = "ERRCODE,ERRDESC,EN_ERRDESC,ZH_ERRDESC\n"; // Header của CSV
+
+      data.forEach(item => {
+        let row = `${item.ERRCODE},${item.ERRDESC},${item.EN_ERRDESC},${item.ZH_ERRDESC}`;
+        csvContent += row + "\n";
+      });
+
+      // Tạo đối tượng Blob chứa dữ liệu CSV
+      const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+
+      // Tạo một URL cho Blob
+      const url = URL.createObjectURL(blob);
+
+      // Tạo và click vào một link download
+      const link = document.createElement("a");
+      link.setAttribute("href", url);
+      link.setAttribute("download", filename);
+      link.style.visibility = 'hidden';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    // ERRCODE
+    // ERRDESC
+    // EN_ERRDESC
+    // ZH_ERRDESC
+    loadXMLDoc("ErrorDef_VI-VN.xml", 'VN');
+    loadXMLDoc("ErrorDef_EN.xml", 'EN');
+    loadXMLDoc("ErrorDef_TW.xml", 'TW');
+    loadCSVFile('DB_error_code_list.csv');
+    loadErrorDef();
+
+  </script>
+</body>
+
+</html>

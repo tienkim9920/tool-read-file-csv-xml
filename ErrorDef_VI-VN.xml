@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewDataSet>
+  <root>
+    <ErrorID>0</ErrorID>
+    <ErrorCode>ERR_SYSTEM_OK</ErrorCode>
+    <ErrorDesc>Giao dịch thành công!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>1</ErrorID>
+    <ErrorCode>ERR_SYSTEM_TRANSACTION_SUCCESS</ErrorCode>
+    <ErrorDesc>Lỗi chưa định nghĩa</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-1</ErrorID>
+    <ErrorCode>ERR_SYSTEM_UNKNOWNERROR</ErrorCode>
+    <ErrorDesc>Lỗi hệ thống!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-2</ErrorID>
+    <ErrorCode>ERR_SYSTEM_HOST_INACTIVE</ErrorCode>
+    <ErrorDesc>Hệ thống chưa kích hoạt!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>107</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_USERDOESNOTEXISTED</ErrorCode>
+    <ErrorDesc>Tài khoản hoặc mật khẩu không chính xác!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>127</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_PIN_NO_REGISTER</ErrorCode>
+    <ErrorDesc>Chưa đăng ký sử dụng mật khẩu giao dịch và token!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>128</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_TRADEONLINE</ErrorCode>
+    <ErrorDesc>Bạn chưa đăng ký giao dịch online phái sinh!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>124</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_CFMAST_STATUS</ErrorCode>
+    <ErrorDesc>Tài khoản đang trong quá trình thay đổi thông tin, quý khách chờ trong giây lát hoặc liên hệ với nhân viên môi giới!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>125</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_USERLOGIN_STATUS</ErrorCode>
+    <ErrorDesc>Tài khoản đang trong quá trình thay đổi thông tin, quý khách chờ trong giây lát hoặc liên hệ với nhân viên môi giới!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>105</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_PASSWORD_EMPTY</ErrorCode>
+    <ErrorDesc>Mật khẩu không được để trống!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-105</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_PASSWORD_EMPTY</ErrorCode>
+    <ErrorDesc>Tài khoản không được để trống!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>110</ErrorID>
+    <ErrorCode>ERR_NOT_LOGIN</ErrorCode>
+    <ErrorDesc>Chưa đăng nhập!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>111</ErrorID>
+    <ErrorCode>ERR_TRADING_PASS</ErrorCode>
+    <ErrorDesc>Mật khẩu giao dịch không chính xác.</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>112</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_INVALID_TOKEN</ErrorCode>
+    <ErrorDesc>Sai mã xác thực</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>129</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_EXPIRED</ErrorCode>
+    <ErrorDesc>Thời hạn giao dịch trực tuyến của bạn đã hết hạn!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>210</ErrorID>
+    <ErrorCode>ERR_ORDERS_AFACCTNO_VIOLATE_PERMISSION</ErrorCode>
+    <ErrorDesc>Tiểu khoản không được phép đặt lệnh!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>130</ErrorID>
+    <ErrorCode>ERR_HOSTATUS</ErrorCode>
+    <ErrorDesc>Hệ thống đang xử lý cuối ngày, chưa cho phép làm giao dịch.</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-10000004</ErrorID>
+    <ErrorCode>ERR_SYSTEM_NOT_PERMISSION</ErrorCode>
+    <ErrorDesc>Bạn chưa đăng ký chức năng này</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100023</ErrorID>
+    <ErrorCode>ERR_SA_HOST_OPERATION_IS_INACTIVE</ErrorCode>
+    <ErrorDesc>Giao dịch ở hội sở chưa kích hoạt</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>714</ErrorID>
+    <ErrorCode>ERR_DTA_NOTFOUND</ErrorCode>
+    <ErrorDesc>Quý khách không có tài khoản giao dịch phái sinh được kích hoạt hoặc tài khoản đang trong quá trình thay đổi</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369128</ErrorID>
+    <ErrorCode>ERR_OUTOF_TRANSACTIONTIME</ErrorCode>
+    <ErrorDesc>[-369128]: Không được thực hiện ngoài giờ giao dịch!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100810</ErrorID>
+    <ErrorCode>ERR_-100810</ErrorCode>
+    <ErrorDesc>[-100810]: Giá trị số bắt buộc phải lớn hơn 0!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360001</ErrorID>
+    <ErrorCode>ERR_-360001</ErrorCode>
+    <ErrorDesc>[-360001]: Trạng thái tài khoản giao dịch không hợp lệ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360008</ErrorID>
+    <ErrorCode>ERR_-360008</ErrorCode>
+    <ErrorDesc>[-360008]: Trạng thái tài khoản ký quỹ không hợp lệ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360061</ErrorID>
+    <ErrorCode>ERR_-360061</ErrorCode>
+    <ErrorDesc>[-360061]: Chưa khai báo biểu phí hệ thống</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361065</ErrorID>
+    <ErrorCode>ERR_-361065</ErrorCode>
+    <ErrorDesc>[-361065]: Chưa khai báo ngân hàng!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361066</ErrorID>
+    <ErrorCode>ERR_-361066</ErrorCode>
+    <ErrorDesc>[-361066]: Chưa khai báo ngân hàng ký quỹ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100120</ErrorID>
+    <ErrorCode>ERR_-100120</ErrorCode>
+    <ErrorDesc>[-100120] Tiểu khoản không được phép thực hiện hoặc đang thay đổi loại hình .</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360070</ErrorID>
+    <ErrorCode>ERR_-360070</ErrorCode>
+    <ErrorDesc>[-360070]: Số tiền có thể dùng không đủ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100200</ErrorID>
+    <ErrorCode>ERR_-100200</ErrorCode>
+    <ErrorDesc>[-100200]: Tài khoản có giao dịch đang thực hiện liên quan!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100010</ErrorID>
+    <ErrorCode>ERR_SA_CHECKER1_OV</ErrorCode>
+    <ErrorDesc>Cần có duyệt rủi ro</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100011</ErrorID>
+    <ErrorCode>ERR_SA_CHECKER2_OV</ErrorCode>
+    <ErrorDesc>Cần có duyệt quy trình</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100017</ErrorID>
+    <ErrorCode>ERR_SA_CANNOT_DELETE_TRADE_REGION</ErrorCode>
+    <ErrorDesc>Không thể xóa nơi giao dịch</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100100</ErrorID>
+    <ErrorCode>ERR_SA_HOST_VOUCHER_DOESNOT_FOUND</ErrorCode>
+    <ErrorDesc>Giấy chứng thực không tìm thấy</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369124</ErrorID>
+    <ErrorCode>ERR_-369124</ErrorCode>
+    <ErrorDesc>[-369124]: Ngoài giờ nộp tiền ký quỹ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369129</ErrorID>
+    <ErrorCode>ERR_-369129</ErrorCode>
+    <ErrorDesc>[-369129]: Số tiền nộp ký quỹ không đủ phí ký quỹ và phí GD ký quỹ tối thiểu!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360113</ErrorID>
+    <ErrorCode>ERR_-360113</ErrorCode>
+    <ErrorDesc>[-360113]: Tài khoản đang bị cảnh báo không thể thực hiện giao dịch</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360069</ErrorID>
+    <ErrorCode>ERR_-360069</ErrorCode>
+    <ErrorDesc>[-360069]: Số tiền thực nhận phải lớn hơn 0!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369126</ErrorID>
+    <ErrorCode>ERR_-369126</ErrorCode>
+    <ErrorDesc>[-369126]: Ngoài giờ rút tiền ký quỹ (Thời gian rút 8h00 - 15h55)!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-560004</ErrorID>
+    <ErrorCode>ERR_RE_-560004</ErrorCode>
+    <ErrorDesc>Trạng thái tài khoản không hợp lệ</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-362105</ErrorID>
+    <ErrorCode>ERR_RE_-362105</ErrorCode>
+    <ErrorDesc>[-362105]: Số tiền rút &lt;= hạn mức rút trên 1 giao dịch!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-362107</ErrorID>
+    <ErrorCode>ERR_RE_-362107</ErrorCode>
+    <ErrorDesc>[-362107]: Số tiền rút &lt;= Hạn mức rút còn lại/ 1 ngày của NĐT!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-362106</ErrorID>
+    <ErrorCode>ERR_RE_-362106</ErrorCode>
+    <ErrorDesc>[-362106]: Số tiền rút &lt;= Hạn mức rút còn lại của TVBT!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-362104</ErrorID>
+    <ErrorCode>ERR_RE_-362104</ErrorCode>
+    <ErrorDesc>[-362104]: Số tiền rút &lt;= số dư tối đa!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360129</ErrorID>
+    <ErrorCode>ERR_RE_-360129</ErrorCode>
+    <ErrorDesc>[-360129]: Vượt hạn mức room chứng khoán của tài khoản</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360002</ErrorID>
+    <ErrorCode>ERR_RE_-360002</ErrorCode>
+    <ErrorDesc>[-360002]: Số dư tiền mặt không đủ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361108</ErrorID>
+    <ErrorCode>ERR_RE_-361108</ErrorCode>
+    <ErrorDesc>[-361108]: Số tiền trả phải &lt;= số dư !</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361104</ErrorID>
+    <ErrorCode>ERR_RE_-361104</ErrorCode>
+    <ErrorDesc>[-361104]: Số tiền thanh toán không hợp lệ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369061</ErrorID>
+    <ErrorCode>ERR_RE_-369061</ErrorCode>
+    <ErrorDesc>[-369061]: Số tiền trả gốc không hợp lệ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369062</ErrorID>
+    <ErrorCode>ERR_RE_-369062</ErrorCode>
+    <ErrorDesc>[-369062]: Số tiền trả lãi không hợp lệ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360115</ErrorID>
+    <ErrorCode>ERR_ACCOUNT_DTA_IS_SUSPENDED</ErrorCode>
+    <ErrorDesc>[-360115]: Tài khoản tạm ngừng giao dịch, vui lòng liên hệ nhân viên quản lý tài khoản!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361001</ErrorID>
+    <ErrorCode>ERR_RE_-361001</ErrorCode>
+    <ErrorDesc>[-361001]: Trạng thái tài khoản không đúng!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361063</ErrorID>
+    <ErrorCode>ERR_RE_-361063</ErrorCode>
+    <ErrorDesc>[-361063]: Tài khoản ký quỹ chưa được kích hoạt với Sở!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369073</ErrorID>
+    <ErrorCode>ERR_RE_-369073</ErrorCode>
+    <ErrorDesc>[-369073]: Tài đang vi phạm tỉ lệ xử lý, không thể thực hiện</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360099</ErrorID>
+    <ErrorCode>ERR_RE_-360099</ErrorCode>
+    <ErrorDesc>[-360099]: Trạng thái CK không hợp lệ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360128</ErrorID>
+    <ErrorCode>ERR_RE_-360128</ErrorCode>
+    <ErrorDesc>[-360128]: Mã chứng khoán phái sinh chưa có trong rổ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369010</ErrorID>
+    <ErrorCode>ERR_RE_-369010</ErrorCode>
+    <ErrorDesc>[-369010]: Lô chứng khoán không hợp lệ</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360121</ErrorID>
+    <ErrorCode>ERR_RE_-360121</ErrorCode>
+    <ErrorDesc>[-360121]: Chi nhánh phái sinh đã đóng cửa !</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360404</ErrorID>
+    <ErrorCode>ERR_RE_-360404</ErrorCode>
+    <ErrorDesc>[-360404]: Mã CKPS bị cấm giao dịch</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700014</ErrorID>
+    <ErrorCode>ERR_RE_-700014</ErrorCode>
+    <ErrorDesc>[-700014]: Bước giá không phù hợp</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-364006</ErrorID>
+    <ErrorCode>ERR_RE_-364006</ErrorCode>
+    <ErrorDesc>[-364006]: Giá phải nằm trong khoảng sàn và trần</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360406</ErrorID>
+    <ErrorCode>ERR_RE_-360406</ErrorCode>
+    <ErrorDesc>[-360406]: Khối lượng đặt phải lớn hơn hoặc bằng khối lượng tối thiểu !</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369018</ErrorID>
+    <ErrorCode>ERR_RE_-369018</ErrorCode>
+    <ErrorDesc>[-369018]: Số lượng đặt vượt quá hạn mức tối đa</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369019</ErrorID>
+    <ErrorCode>ERR_RE_-369019</ErrorCode>
+    <ErrorDesc>[-369019]: Giá trị đặt vượt quá hạn mức tối đa</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369020</ErrorID>
+    <ErrorCode>ERR_RE_-369020</ErrorCode>
+    <ErrorDesc>[-369020]: Số lượng mở vượt quá giới hạn vị thế nắm giữ tối đa</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369023</ErrorID>
+    <ErrorCode>ERR_RE_-369023</ErrorCode>
+    <ErrorDesc>[-369023]: Vượt quá giới hạn lệnh tích lũy!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360345</ErrorID>
+    <ErrorCode>ERR_RE_-360345</ErrorCode>
+    <ErrorDesc>[-360345]: Phiên giao dịch không hợp lệ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361330</ErrorID>
+    <ErrorCode>ERR_RE_-361330</ErrorCode>
+    <ErrorDesc>[-361330]: Phiên liên tục không được đặt lệnh ATO!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360344</ErrorID>
+    <ErrorCode>ERR_RE_-360344</ErrorCode>
+    <ErrorDesc>[-360344]: Chưa đến giờ nhận lệnh!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360343</ErrorID>
+    <ErrorCode>ERR_RE_-360343</ErrorCode>
+    <ErrorDesc>[-360343]: Phiên giao dịch hiện tại không được phép hủy/sửa lệnh!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100083</ErrorID>
+    <ErrorCode>ERR_SA_BUSDATE_BRANCHDATE_PLZLOGIN_OUT</ErrorCode>
+    <ErrorDesc>[100083]: Ngày hệ thống đã thay đổi, Thoát và Đăng nhập lại để thực hiện giao dịch !</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369011</ErrorID>
+    <ErrorCode>ERR_-369011</ErrorCode>
+    <ErrorDesc>[-369011]: Số lượng mua vượt quá số lượng mua tối đa</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369012</ErrorID>
+    <ErrorCode>ERR_-369012</ErrorCode>
+    <ErrorDesc>[-369012]: Số lượng bán vượt quá số lượng bán tối đa</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700106</ErrorID>
+    <ErrorCode>ERR_-700106</ErrorCode>
+    <ErrorDesc>[-700106]: Lệnh sửa phải khác lệnh gốc</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700104</ErrorID>
+    <ErrorCode>ERR_-700104</ErrorCode>
+    <ErrorDesc>[-700104]: Lệnh lô chẵn chỉ được sửa thành lệnh lô chẵn</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700105</ErrorID>
+    <ErrorCode>ERR_-700105</ErrorCode>
+    <ErrorDesc>[-700105]: Lệnh lô lẻ chỉ được sửa thành lệnh lô lẻ</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700010</ErrorID>
+    <ErrorCode>ERROR-700010</ErrorCode>
+    <ErrorDesc>[-700013]: Lỗi chưa xác định</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700012</ErrorID>
+    <ErrorCode>RR_OD_LO_PRICE_ISNOT_FLOOR_CEILLING</ErrorCode>
+    <ErrorDesc>Giá không trong khoảng trần-sàn</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700108</ErrorID>
+    <ErrorCode>ERR_-700108</ErrorCode>
+    <ErrorDesc>[-700108]: Lệnh không được phép sửa</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700025</ErrorID>
+    <ErrorCode>ERROR_-700025</ErrorCode>
+    <ErrorDesc>[-700025]:Trạng thái lệnh không hợp lệ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360408</ErrorID>
+    <ErrorCode>ERROR_-360408</ErrorCode>
+    <ErrorDesc>[-360408]: Trạng thái lệnh không hợp lệ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360407</ErrorID>
+    <ErrorCode>ERROR_-360407</ErrorCode>
+    <ErrorDesc>[-360407]: Trạng thái lệnh của FDSQUOTES không đúng !</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361064</ErrorID>
+    <ErrorCode>ERROR_-361064</ErrorCode>
+    <ErrorDesc>[-361064]: User thực hiện Hủy/Sửa phải là User đặt lệnh!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369025</ErrorID>
+    <ErrorCode>ERROR_-369025</ErrorCode>
+    <ErrorDesc>[-369025]: Bạn chưa sửa thông tin lệnh!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-701111</ErrorID>
+    <ErrorCode>ERROR_-701111</ErrorCode>
+    <ErrorDesc>[-701111]: KL sửa phải lớn hơn khối lượng đã khớp</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369060</ErrorID>
+    <ErrorCode>ERROR_-369060</ErrorCode>
+    <ErrorDesc>[-369060]: Số lượng net phải nhỏ hơn số lượng net tối đa</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>113</ErrorID>
+    <ErrorCode>ERR_NOT_CONNECT_BO</ErrorCode>
+    <ErrorDesc>Không kết nối được với core cơ sở</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-901215</ErrorID>
+    <ErrorCode>ERR_OTP_INVALID</ErrorCode>
+    <ErrorDesc>Mã xác thực không chính xác!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>719</ErrorID>
+    <ErrorCode>ERR_DTA_DMA_CLOSE</ErrorCode>
+    <ErrorDesc>Tài khoản giao dịch đã đóng!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369215</ErrorID>
+    <ErrorCode>ERR_ACCOUNT_IS_SUSPENDED</ErrorCode>
+    <ErrorDesc>Tài khoản đang tạm ngừng giao dịch do vi phạm mức cảnh báo 3 tại VSD. Vui lòng liên hệ nhân viên quản lý tài khoản!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>229</ErrorID>
+    <ErrorCode>ERR_ORDERS_TRADINGPASS_INVALID</ErrorCode>
+    <ErrorDesc>Sai mật khẩu giao dịch</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369214</ErrorID>
+    <ErrorCode>369214</ErrorCode>
+    <ErrorDesc>Tài khoản tạm ngừng giao dịch, vui lòng liên hệ nhân viên quản lý tài khoản!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360142</ErrorID>
+    <ErrorCode>360142</ErrorCode>
+    <ErrorDesc>KHNN chưa được chuyển tiền qua lại giữa tài khoản phái sinh và cơ sở!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>227</ErrorID>
+    <ErrorCode>ERR_ORDERS_PRICE_INVALID_TICKSIZE</ErrorCode>
+    <ErrorDesc>Sai bước giá!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369127</ErrorID>
+    <ErrorCode>ERR_-369127</ErrorCode>
+    <ErrorDesc>[-369127]: Ngoài giờ rút tiền ký quỹ!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369131</ErrorID>
+    <ErrorCode>ERR_OUTOF_TRANSACTIONTIME_DT01</ErrorCode>
+    <ErrorDesc>[-369131]: Ngoài giờ nộp tiền từ TKCS vào TKPS!</ErrorDesc>
+  </root>
+    <root>
+    <ErrorID>-369130</ErrorID>
+    <ErrorCode>ERR_OUTOF_TRANSACTIONTIME_DT30</ErrorCode>
+    <ErrorDesc>[-369130]: Ngoài giờ rút tiền từ TKPS về TKCS!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360355</ErrorID>
+    <ErrorCode>ERR_360355</ErrorCode>
+    <ErrorDesc>[-360355]: Phiên giao dịch hiện tại không được phép đặt/hủy/sửa lệnh!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-3</ErrorID>
+    <ErrorCode>ERR_SYSTEM_IRQS_DUPLICATE</ErrorCode>
+    <ErrorDesc>Yêu cầu bị trùng!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360109</ErrorID>
+    <ErrorCode>ERR_DT_-360109</ErrorCode>
+    <ErrorDesc>Số tiền nộp không thể lớn hơn số tiền có thể dùng!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-901272</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_OVERFAIL</ErrorCode>
+    <ErrorDesc>Tài khoản của quý khách đã bị khóa do nhập sai quá số lần quy định. Quý khách vui lòng liên hệ bộ phận CSKH 1900 25 23 58 để được hỗ trợ</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-901255</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_FAIL</ErrorCode>
+    <ErrorDesc>Tên tài khoản không đúng!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-990001</ErrorID>
+    <ErrorCode>ERR_OTP_EXPIRE</ErrorCode>
+    <ErrorDesc> Mã xác thực đã hết hạn!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>228</ErrorID>
+    <ErrorCode>ERR_ORDERS_TRADINGPASS_EMPTY</ErrorCode>
+    <ErrorDesc>Mã xác thực trống!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>230</ErrorID>
+    <ErrorCode>mess_auth_changed</ErrorCode>
+    <ErrorDesc>Đồng bộ thành công. Quý khách vui lòng đăng nhập lại để tiếp tục giao dịch!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>104</ErrorID>
+    <ErrorCode>ERR_CHECK_OLDPW</ErrorCode>
+    <ErrorDesc>Mật khẩu cũ không chính xác!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-670044</ErrorID>
+    <ErrorCode>ERR_CHECK_OLDPW</ErrorCode>
+    <ErrorDesc>Mật khẩu cũ không chính xác!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100730</ErrorID>
+    <ErrorCode>ERR_INVALID_PASS_POLICY</ErrorCode>
+    <ErrorDesc>[-100730]: Độ dài mật khẩu tối thiểu 8 ký tự. Mật khẩu phải chứa các loại ký tự sau: chữ hoa, chữ thường, số, ký tự đặc biệt (!@$#).</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-102000</ErrorID>
+    <ErrorCode>ERR_AUTHTYPE_CHANGED</ErrorCode>
+    <ErrorDesc>Phương thức xác thực đã thay đổi. Quý khách vui lòng thực hiện chức năng "Đồng bộ phương thức xác thực" để tiếp tục giao dịch!</ErrorDesc>
+  </root>
+</NewDataSet>

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewDataSet>
+  <root>
+    <ErrorID>0</ErrorID>
+    <ErrorCode>ERR_SYSTEM_OK</ErrorCode>
+    <ErrorDesc>Trade successfully!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>1</ErrorID>
+    <ErrorCode>ERR_SYSTEM_TRANSACTION_SUCCESS</ErrorCode>
+    <ErrorDesc>Error undefined</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-1</ErrorID>
+    <ErrorCode>ERR_SYSTEM_UNKNOWNERROR</ErrorCode>
+    <ErrorDesc>System error</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-2</ErrorID>
+    <ErrorCode>ERR_SYSTEM_HOST_INACTIVE</ErrorCode>
+    <ErrorDesc>System is not activated!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>107</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_USERDOESNOTEXISTED</ErrorCode>
+    <ErrorDesc>The account or password is incorrect!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>127</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_PIN_NO_REGISTER</ErrorCode>
+    <ErrorDesc>No registration for trading password and token!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>128</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_TRADEONLINE</ErrorCode>
+    <ErrorDesc>You haven't registered trading online yet!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>124</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_CFMAST_STATUS</ErrorCode>
+    <ErrorDesc>Your account is pending, please wait a few minutes or contact the brokers!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>125</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_USERLOGIN_STATUS</ErrorCode>
+    <ErrorDesc>Your account is pending, please wait a few minutes or contact the brokers!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>105</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_PASSWORD_EMPTY</ErrorCode>
+    <ErrorDesc>Password can not be empty!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-105</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_PASSWORD_EMPTY</ErrorCode>
+    <ErrorDesc>Account can not be empty!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>110</ErrorID>
+    <ErrorCode>ERR_NOT_LOGIN</ErrorCode>
+    <ErrorDesc>User is not login!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>111</ErrorID>
+    <ErrorCode>ERR_TRADING_PASS</ErrorCode>
+    <ErrorDesc>Trading pass is not correct</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>112</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_INVALID_TOKEN</ErrorCode>
+    <ErrorDesc>Invalid token</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>129</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_EXPIRED</ErrorCode>
+    <ErrorDesc>Your online trading account expired!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>210</ErrorID>
+    <ErrorCode>ERR_ORDERS_AFACCTNO_VIOLATE_PERMISSION</ErrorCode>
+    <ErrorDesc>Sub account not allow to make order</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>130</ErrorID>
+    <ErrorCode>ERR_HOSTATUS</ErrorCode>
+    <ErrorDesc>Can't do transaction because system is processing.</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-10000004</ErrorID>
+    <ErrorCode>ERR_SYSTEM_NOT_PERMISSION</ErrorCode>
+    <ErrorDesc>You are not authorized to do this action</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100023</ErrorID>
+    <ErrorCode>ERR_SA_HOST_OPERATION_IS_INACTIVE</ErrorCode>
+    <ErrorDesc>Operatiion in host is still inactive</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>714</ErrorID>
+    <ErrorCode>ERR_DTA_NOTFOUND</ErrorCode>
+    <ErrorDesc>You have no active trading account or your trading account status is pending</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369128</ErrorID>
+    <ErrorCode>ERR_OUTOF_TRANSACTIONTIME</ErrorCode>
+    <ErrorDesc>[-369128]: Out of transction time!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100810</ErrorID>
+    <ErrorCode>ERR_-100810</ErrorCode>
+    <ErrorDesc>[-100810]: The number must be larger than 0!                                                                                     </ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360001</ErrorID>
+    <ErrorCode>ERR_-360001</ErrorCode>
+    <ErrorDesc>[-360001]: Trading account status is invalid!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360008</ErrorID>
+    <ErrorCode>ERR_-360008</ErrorCode>
+    <ErrorDesc>[-360008]: margin account status is invalid!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360061</ErrorID>
+    <ErrorCode>ERR_-360061</ErrorCode>
+    <ErrorDesc>[-360061]: The system fee schema is not yet declared!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361065</ErrorID>
+    <ErrorCode>ERR_-361065</ErrorCode>
+    <ErrorDesc>[-361065]: Doesn't have any bank!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361066</ErrorID>
+    <ErrorCode>ERR_-361066</ErrorCode>
+    <ErrorDesc>[-361066]: Doesn't have any margin bank!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100120</ErrorID>
+    <ErrorCode>ERR_-100120</ErrorCode>
+    <ErrorDesc>[-100120] Sub-accounts are not allowed to perform or pending change type</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360070</ErrorID>
+    <ErrorCode>ERR_-360070</ErrorCode>
+    <ErrorDesc>[-360070]: Available balance is not enought!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100200</ErrorID>
+    <ErrorCode>ERR_-100200</ErrorCode>
+    <ErrorDesc>[-100200]: Tài khoản có giao dịch đang thực hiện liên quan</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100010</ErrorID>
+    <ErrorCode>ERR_SA_CHECKER1_OV</ErrorCode>
+    <ErrorDesc>Need to check risk</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100011</ErrorID>
+    <ErrorCode>ERR_SA_CHECKER2_OV</ErrorCode>
+    <ErrorDesc>Need to check process</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100017</ErrorID>
+    <ErrorCode>ERR_SA_CANNOT_DELETE_TRADE_REGION</ErrorCode>
+    <ErrorDesc>Sorry, but you cannot delete trade region</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100100</ErrorID>
+    <ErrorCode>ERR_SA_HOST_VOUCHER_DOESNOT_FOUND</ErrorCode>
+    <ErrorDesc>Host voucher not found</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369124</ErrorID>
+    <ErrorCode>ERR_-369124</ErrorCode>
+    <ErrorDesc>[-369124]: Out of deposit time!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369129</ErrorID>
+    <ErrorCode>ERR_-369129</ErrorCode>
+    <ErrorDesc>[-369129]: The deposit amount is not enough for margin fee and minimum deposit fee!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360113</ErrorID>
+    <ErrorCode>ERR_-360113</ErrorCode>
+    <ErrorDesc>[-360113]Warning account, can't complete</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360069</ErrorID>
+    <ErrorCode>ERR_-360069</ErrorCode>
+    <ErrorDesc>[-360069]: The amount actually received must be greater than 0!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369126</ErrorID>
+    <ErrorCode>ERR_-369126</ErrorCode>
+    <ErrorDesc>[-369126]: Out of withdraw collateral by cash time (From 8h00 am to 3h55 pm )!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-560004</ErrorID>
+    <ErrorCode>ERR_RE_-560004</ErrorCode>
+    <ErrorDesc>The status of remiser account is invalid</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-362105</ErrorID>
+    <ErrorCode>ERR_RE_-362105</ErrorCode>
+    <ErrorDesc>[-362105]: Withdrawal amount must less than withdrawal limlit per one transaction!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-362107</ErrorID>
+    <ErrorCode>ERR_RE_-362107</ErrorCode>
+    <ErrorDesc>[-362107]: Withdrawal amount must less than remaining withdrawal limit per one day of investor!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-362106</ErrorID>
+    <ErrorCode>ERR_RE_-362106</ErrorCode>
+    <ErrorDesc>[-362106]: Withdrawal amount must less than remaining withdrawal limit of clearing member!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-362104</ErrorID>
+    <ErrorCode>ERR_RE_-362104</ErrorCode>
+    <ErrorDesc>[-362104]: Withdrawal amount must less than maximum avalaible amount!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360129</ErrorID>
+    <ErrorCode>ERR_RE_-360129</ErrorCode>
+    <ErrorDesc>[-360129]: Exceeding the instruments room limit of the account</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360002</ErrorID>
+    <ErrorCode>ERR_RE_-360002</ErrorCode>
+    <ErrorDesc>[-360002]: Cash on hand is not enought!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361108</ErrorID>
+    <ErrorCode>ERR_RE_-361108</ErrorCode>
+    <ErrorDesc>[-361108]: Paid money can't greater than balance!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361104</ErrorID>
+    <ErrorCode>ERR_RE_-361104</ErrorCode>
+    <ErrorDesc>[-361104]: Settlement amount is invalid!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369061</ErrorID>
+    <ErrorCode>ERR_RE_-369061</ErrorCode>
+    <ErrorDesc>[-369061]: Paid amount for principal is invalid!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369062</ErrorID>
+    <ErrorCode>ERR_RE_-369062</ErrorCode>
+    <ErrorDesc>[-369062]: Paid amount for interest is invalid!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360115</ErrorID>
+    <ErrorCode>ERR_ACCOUNT_DTA_IS_SUSPENDED</ErrorCode>
+    <ErrorDesc>[-360115]: Account is suspended trading, please contact your account management officer!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361001</ErrorID>
+    <ErrorCode>ERR_RE_-361001</ErrorCode>
+    <ErrorDesc>[-361001]: Account status is invalid!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361063</ErrorID>
+    <ErrorCode>ERR_RE_-361063</ErrorCode>
+    <ErrorDesc>[-361063]: Margin account has not been activated with VSD!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369073</ErrorID>
+    <ErrorCode>ERR_RE_-369073</ErrorCode>
+    <ErrorDesc>[-369073]: Account is suppend, can't make order</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360099</ErrorID>
+    <ErrorCode>ERR_RE_-360099</ErrorCode>
+    <ErrorDesc>[-360099]: Stock status is invalid!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360128</ErrorID>
+    <ErrorCode>ERR_RE_-360128</ErrorCode>
+    <ErrorDesc>[-360128]: The derivative instrument is not yet declared!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369010</ErrorID>
+    <ErrorCode>ERR_RE_-369010</ErrorCode>
+    <ErrorDesc>[-369010]: Instruments trade lot is invalid!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360121</ErrorID>
+    <ErrorCode>ERR_RE_-360121</ErrorCode>
+    <ErrorDesc>[-360121]: Derivative branch is inactive</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360404</ErrorID>
+    <ErrorCode>ERR_RE_-360404</ErrorCode>
+    <ErrorDesc>[-360404]: Symbol code stoped trade</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700014</ErrorID>
+    <ErrorCode>ERR_RE_-700014</ErrorCode>
+    <ErrorDesc>[-700014]: Ticksize Incompliant!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-364006</ErrorID>
+    <ErrorCode>ERR_RE_-364006</ErrorCode>
+    <ErrorDesc>[-364006]: Price must between from Floor to Ceiling value!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360406</ErrorID>
+    <ErrorCode>ERR_RE_-360406</ErrorCode>
+    <ErrorDesc>[-360406]: Order quantity must greater than or equal min quantity !</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369018</ErrorID>
+    <ErrorCode>ERR_RE_-369018</ErrorCode>
+    <ErrorDesc>[-369018]: Order quantity must less than maximum limit quantity</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369019</ErrorID>
+    <ErrorCode>ERR_RE_-369019</ErrorCode>
+    <ErrorDesc>[-369019]: Order values must less than maximum limit values</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369020</ErrorID>
+    <ErrorCode>ERR_RE_-369020</ErrorCode>
+    <ErrorDesc>[-369020]: Open positions cannot exceed the maximum position limit</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369023</ErrorID>
+    <ErrorCode>ERR_RE_-369023</ErrorCode>
+    <ErrorDesc>[-369023]: Order must less than accumulation order limit</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360345</ErrorID>
+    <ErrorCode>ERR_RE_-360345</ErrorCode>
+    <ErrorDesc>[-360345]:The session is invalid!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361330</ErrorID>
+    <ErrorCode>ERR_RE_-361330</ErrorCode>
+    <ErrorDesc>[-361330]: Session continue no accept ATO!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360344</ErrorID>
+    <ErrorCode>ERR_RE_-360344</ErrorCode>
+    <ErrorDesc>[-360344]:This is not time for advance orders!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360343</ErrorID>
+    <ErrorCode>ERR_RE_-360343</ErrorCode>
+    <ErrorDesc>[-360343]: Can not cancel replace in this session!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100083</ErrorID>
+    <ErrorCode>ERR_SA_BUSDATE_BRANCHDATE_PLZLOGIN_OUT</ErrorCode>
+    <ErrorDesc>[100083]: Error with sysdate and brach date</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369011</ErrorID>
+    <ErrorCode>ERR_-369011</ErrorCode>
+    <ErrorDesc>[-369011]: Buying quantity must less than maximum buying limit quantity</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369012</ErrorID>
+    <ErrorCode>ERR_-369012</ErrorCode>
+    <ErrorDesc>[-369012]: Selling quantity must less than maximum selling limit quantity</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700106</ErrorID>
+    <ErrorCode>ERR_-700106</ErrorCode>
+    <ErrorDesc>[-700106]: Orders must be different from the original order fixes</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700104</ErrorID>
+    <ErrorCode>ERR_-700104</ErrorCode>
+    <ErrorDesc>[-700104]: The command is changed to only round lot Round lot orders</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700105</ErrorID>
+    <ErrorCode>ERR_-700105</ErrorCode>
+    <ErrorDesc>[-700105]: The command is changed to odd lot only odd-lot orders</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700010</ErrorID>
+    <ErrorCode>ERROR-700010</ErrorCode>
+    <ErrorDesc>[-700013]: Undefined</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700012</ErrorID>
+    <ErrorCode>RR_OD_LO_PRICE_ISNOT_FLOOR_CEILLING</ErrorCode>
+    <ErrorDesc>Price not between ceiling and floor</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700108</ErrorID>
+    <ErrorCode>ERR_-700108</ErrorCode>
+    <ErrorDesc>[-700108]: Command not allowed to edit</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-700025</ErrorID>
+    <ErrorCode>ERROR_-700025</ErrorCode>
+    <ErrorDesc>[-700025]:Order status invalid!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360408</ErrorID>
+    <ErrorCode>ERROR_-360408</ErrorCode>
+    <ErrorDesc>[-360408]: Order status invalid !</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360407</ErrorID>
+    <ErrorCode>ERROR_-360407</ErrorCode>
+    <ErrorDesc>[-360407]: FDSQUOTES status invalid !</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-361064</ErrorID>
+    <ErrorCode>ERROR_-361064</ErrorCode>
+    <ErrorDesc>[-361064]: Cancling/Amending user must be Ordering user!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369025</ErrorID>
+    <ErrorCode>ERROR_-369025</ErrorCode>
+    <ErrorDesc>[-369025]: You have not amended order yet!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-701111</ErrorID>
+    <ErrorCode>ERROR_-701111</ErrorCode>
+    <ErrorDesc>[-701111]: Amend quantity must greater than exec quantity</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369060</ErrorID>
+    <ErrorCode>ERROR_-369060</ErrorCode>
+    <ErrorDesc>[-369060]: Netted quantity must less than or equal maximum netted quantity</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>113</ErrorID>
+    <ErrorCode>ERR_NOT_CONNECT_BO</ErrorCode>
+    <ErrorDesc>Not connection BO</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-901215</ErrorID>
+    <ErrorCode>ERR_OTP_INVALID</ErrorCode>
+    <ErrorDesc>Incorrect authentication code!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>719</ErrorID>
+    <ErrorCode>ERR_DTA_DMA_CLOSE</ErrorCode>
+    <ErrorDesc>Trading account is closed!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369215</ErrorID>
+    <ErrorCode>ERR_ACCOUNT_IS_SUSPENDED</ErrorCode>
+    <ErrorDesc>Account is suspended trading because of violating warning level 3 at the VSD. Please contact your account management officer!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>229</ErrorID>
+    <ErrorCode>ERR_ORDERS_TRADINGPASS_INVALID</ErrorCode>
+    <ErrorDesc>Trading password is invalid!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369214</ErrorID>
+    <ErrorCode>369214</ErrorCode>
+    <ErrorDesc>Account is suspended trading, please contact your account management officer!</ErrorDesc>
+  </root>
+    <root>
+    <ErrorID>-360142</ErrorID>
+    <ErrorCode>360142</ErrorCode>
+    <ErrorDesc>Foreign customers cannot transfer money between derivatives and underlying account!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>227</ErrorID>
+    <ErrorCode>ERR_ORDERS_PRICE_INVALID_TICKSIZE</ErrorCode>
+    <ErrorDesc>Sai bước giá!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-369127</ErrorID>
+    <ErrorCode>ERR_-369127</ErrorCode>
+    <ErrorDesc>[-369127]: Out of withdraw time!</ErrorDesc>
+  </root>
+    <root>
+    <ErrorID>-369131</ErrorID>
+    <ErrorCode>ERR_OUTOF_TRANSACTIONTIME_DT01</ErrorCode>
+    <ErrorDesc>[-369131]: Overtime cash deposit from Equity to Futures account!</ErrorDesc>
+  </root>
+    <root>
+    <ErrorID>-369130</ErrorID>
+    <ErrorCode>ERR_OUTOF_TRANSACTIONTIME_DT30</ErrorCode>
+    <ErrorDesc>[-369130]: Overtime withdrawal from Futures to Equity account!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360355</ErrorID>
+    <ErrorCode>ERR_360355</ErrorCode>
+    <ErrorDesc>[-360355]: Can not place/cancel/replace in this session!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-3</ErrorID>
+    <ErrorCode>ERR_SYSTEM_IRQS_DUPLICATE</ErrorCode>
+    <ErrorDesc>Request duplicate!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-360109</ErrorID>
+    <ErrorCode>ERR_DT_-360109</ErrorCode>
+    <ErrorDesc>The amount deposit cannot be greater than the amount available!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-901272</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_OVERFAIL</ErrorCode>
+    <ErrorDesc>Your account has been locked due to multiple failed login attempts. Please contact Customer service center 1900 25 23 58 for support.</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-901255</ErrorID>
+    <ErrorCode>ERR_USERLOGIN_FAIL</ErrorCode>
+    <ErrorDesc>The field username is incorrect!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-990001</ErrorID>
+    <ErrorCode>ERR_OTP_EXPIRE</ErrorCode>
+    <ErrorDesc>Expired authentication code!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>228</ErrorID>
+    <ErrorCode>ERR_ORDERS_TRADINGPASS_EMPTY</ErrorCode>
+    <ErrorDesc>Empty authentication code!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>230</ErrorID>
+    <ErrorCode>mess_auth_changed</ErrorCode>
+    <ErrorDesc>Sync successfully. Please login again to continue trading!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>104</ErrorID>
+    <ErrorCode>ERR_CHECK_OLDPW</ErrorCode>
+    <ErrorDesc>Old password is not correct!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-670044</ErrorID>
+    <ErrorCode>ERR_CHECK_OLDPW</ErrorCode>
+    <ErrorDesc>Old password is not correct!</ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-100730</ErrorID>
+    <ErrorCode>ERR_INVALID_PASS_POLICY</ErrorCode>
+    <ErrorDesc>
+      [-100730]: Minimum password length is 8 characters. Password must contain the following character types: uppercase letters, lowercase letters, numbers, special characters (!@$#).
+    </ErrorDesc>
+  </root>
+  <root>
+    <ErrorID>-102000</ErrorID>
+    <ErrorCode>ERR_AUTHTYPE_CHANGED</ErrorCode>
+    <ErrorDesc>The authentication method has changed. Please perform the "Sync authentication method" function to continue trading!</ErrorDesc>
+  </root>
+</NewDataSet>
